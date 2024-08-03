@@ -12,15 +12,30 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="installation.html">Installation</a></li>
-                <li><a href="usage.html">Usage</a></li>
-                <li><a href="faq.html">FAQ</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h2>Welcome to the Documentation</h2>
-        <p>This is the main page of your documentation site. Use the navigation menu above to explore the documentation.</p>
+      <main>
+        <h2>How to update sector data</h2>
+        <p>This section provides instructions on how to update sector data in the application.</p>
+        <h3>Updating Data</h3>
+        <p>To update the sector data, use the `/updatedata` command. You need to provide the following options:</p>
+        <ul>
+            <li><strong>data</strong>: The times and sectors data. This should be a space-separated list of times and sector information.</li>
+            <li><strong>timezone</strong>: The timezone of the provided data. Select from the available timezones.</li>
+        </ul>
+        <p>Example command:</p>
+        <pre><code>/updatedata data="12:00 SectorA 14:00 SectorB" timezone="America/New_York"</code></pre>
+        
+        <h3>Viewing Upcoming Sectors</h3>
+        <p>Use the `/nextsector` command to view the next 7 upcoming sectors. This command does not require any parameters.</p>
+        <p>Example command:</p>
+        <pre><code>/nextsector</code></pre>
+        
+        <h3>Getting Help</h3>
+        <p>If you need more information or assistance, use the `/help` command to get instructions on how to use the bot commands.</p>
+        <p>Example command:</p>
+        <pre><code>/help</code></pre>
     </main>
     <footer>
         <p>&copy; 2024 Your Project Name. All rights reserved.</p>
