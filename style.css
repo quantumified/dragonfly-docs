@@ -14,8 +14,8 @@ body {
 }
 
 header {
-  background-color: #f2f2f2; /* Light grey */
-  color: #333; /* Dark grey */
+  background-color: #333; /* Dark blue */
+  color: #fff; /* White text */
   padding: 20px 0;
   text-align: center;
   border-radius: 10px; 
